@@ -1,0 +1,13 @@
+Layout
+<ul>
+  <li>
+    <a [routerLink]="['default']" routerLinkActive="default">Default page</a>
+  </li>
+  <li>
+    <a [routerLink]="['second-page']" routerLinkActive="second-page"
+      >Second page</a
+    >
+  </li>
+</ul>
+<div>STORE VALUE: {{ value }}</div>
+<div><router-outlet></router-outlet></div>

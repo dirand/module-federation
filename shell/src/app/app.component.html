@@ -1,0 +1,7 @@
+SHELL
+<a [routerLink]="['/pages-shell']" routerLinkActive="pages">PAGES !!!</a>
+<button (click)="onClick()">Set Shared service val</button>
+<div>VALUE: {{ sharedService.value }}</div>
+<div style="border: 3px solid green; padding: 32px">
+  <router-outlet></router-outlet>
+</div>
